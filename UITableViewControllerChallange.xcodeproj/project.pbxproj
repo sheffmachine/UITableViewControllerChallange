@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		2B51BD1819E9FBE30085CAE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51BD1719E9FBE30085CAE8 /* main.m */; };
 		2B51BD1B19E9FBE30085CAE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51BD1A19E9FBE30085CAE8 /* AppDelegate.m */; };
-		2B51BD1E19E9FBE30085CAE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51BD1D19E9FBE30085CAE8 /* ViewController.m */; };
 		2B51BD2119E9FBE30085CAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B51BD1F19E9FBE30085CAE8 /* Main.storyboard */; };
 		2B51BD2319E9FBE30085CAE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B51BD2219E9FBE30085CAE8 /* Images.xcassets */; };
 		2B51BD2619E9FBE30085CAE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B51BD2419E9FBE30085CAE8 /* LaunchScreen.xib */; };
 		2B51BD3219E9FBE30085CAE8 /* UITableViewControllerChallangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51BD3119E9FBE30085CAE8 /* UITableViewControllerChallangeTests.m */; };
+		2B51BD3D19E9FDA10085CAE8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51BD3C19E9FDA10085CAE8 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		2B51BD1719E9FBE30085CAE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B51BD1919E9FBE30085CAE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B51BD1A19E9FBE30085CAE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B51BD1C19E9FBE30085CAE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B51BD1D19E9FBE30085CAE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B51BD2019E9FBE30085CAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B51BD2219E9FBE30085CAE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B51BD2519E9FBE30085CAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2B51BD2B19E9FBE30085CAE8 /* UITableViewControllerChallangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B51BD3019E9FBE30085CAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B51BD3119E9FBE30085CAE8 /* UITableViewControllerChallangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallangeTests.m; sourceTree = "<group>"; };
+		2B51BD3B19E9FDA10085CAE8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		2B51BD3C19E9FDA10085CAE8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				2B51BD1919E9FBE30085CAE8 /* AppDelegate.h */,
 				2B51BD1A19E9FBE30085CAE8 /* AppDelegate.m */,
-				2B51BD1C19E9FBE30085CAE8 /* ViewController.h */,
-				2B51BD1D19E9FBE30085CAE8 /* ViewController.m */,
+				2B51BD3B19E9FDA10085CAE8 /* TableViewController.h */,
+				2B51BD3C19E9FDA10085CAE8 /* TableViewController.m */,
 				2B51BD1F19E9FBE30085CAE8 /* Main.storyboard */,
 				2B51BD2219E9FBE30085CAE8 /* Images.xcassets */,
 				2B51BD2419E9FBE30085CAE8 /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B51BD1E19E9FBE30085CAE8 /* ViewController.m in Sources */,
 				2B51BD1B19E9FBE30085CAE8 /* AppDelegate.m in Sources */,
+				2B51BD3D19E9FDA10085CAE8 /* TableViewController.m in Sources */,
 				2B51BD1819E9FBE30085CAE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
